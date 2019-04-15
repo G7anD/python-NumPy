@@ -1,13 +1,13 @@
 import numpy as np
 a = np.array([1, 2, 3])
-print(a, "\n")
+print(a)
 
-# a simple matrix elements are float
+# create array
 b = np.array([(1.5, 2, 3), (4, 5, 6)], dtype=float)
-print(b, "\n")
+print(b)
 
 m = np.zeros((3, 3))  # 3x3 matrix
-print(m, "\n")
+print(m)
 
 c = np.array([[(1.5,2,3), (4,5,6)], [(3,2,1), (4,5,6)]],dtype = float)
 print(c)
